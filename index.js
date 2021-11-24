@@ -1,18 +1,13 @@
 
-function counter(){
-    var a = 0
-    incrementCounter = function(){
-        a++;
-        console.log(a)
-    }
-    decrementCounter = function(){
-        a--;
-        console.log(a)
-    }
+function x(y){
+    console.log(y)
+     y();
+       
 }
-var counter1 = new counter();
-counter1.incrementCounter();
-counter1.incrementCounter();
-counter1.decrementCounter();
+x(function y(){
+    console.log("y")
+})
+
+
 
 
