@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -73,7 +74,7 @@ hr {
     text-align: right;
 }
 
-.link {
+.navigation .link {
     color: white;
 }
 
@@ -97,6 +98,8 @@ hr {
     font-size: 2rem;
     color: var(--red);
     padding-top: 1rem;
+    text-align: center;
+    
 
 
 }
@@ -114,14 +117,26 @@ hr {
 
 .off-white {
     background-color: var(--off-white);
+}
+/** footers**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 
 
 }
+.footer .link {
+    color: white;
 
+}
 
-
-
-
+.footer ul {
+    padding-inline-start: 0px;
+}
 
 
 
