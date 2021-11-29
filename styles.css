@@ -29,12 +29,14 @@ body {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: white
 }
 
 .link-secondary {
@@ -99,7 +101,7 @@ hr {
     color: var(--red);
     padding-top: 1rem;
     text-align: center;
-    
+
 
 
 }
@@ -113,14 +115,16 @@ hr {
 .section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
-    
+
 }
 
 .off-white {
     background-color: var(--off-white);
 }
+
 /** footers**/
 
 .footer {
@@ -129,9 +133,13 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-
-
 }
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer .link {
     color: white;
 
@@ -140,11 +148,3 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
-
-
-
-
-
-
-
