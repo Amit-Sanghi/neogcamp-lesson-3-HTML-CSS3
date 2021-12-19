@@ -102,11 +102,21 @@ hr {
     padding-top: 1rem;
     text-align: center;
 
+}
+.hero1 {
+    padding: 0.5rem;
+}
 
+
+.hero1 .hero-heading {
+    font-size: 2rem;
+    color: var(--red);
+    padding-top: 1rem;
+    text-align: center;
 
 }
 
-.hero .hero-heading .heading-ink {
+.hero1 .hero-heading .heading-ink {
     color: var(--primary-color);
 
 }
